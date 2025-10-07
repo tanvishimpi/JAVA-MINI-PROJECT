@@ -1,0 +1,95 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('book\ img.jpg') no-repeat center center fixed;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+ 
+  padding: 40px;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+/* Input + Search */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+/* Button colors */
+.search { background-color: #1e88e5; }
+.def    { background-color: #43a047; }
+.ex     { background-color: #ffb300; color: #333; }
+.pron   { background-color: #8e24aa; }
+.img    { background-color: #f4511e; }
+
+/* Hover effects */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255,255,255,0.3);
+}
+
+/* Actions section */
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* Output section */
+.output {
+  text-align: left;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.output p {
+  background: rgba(255,255,255,0.15);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
